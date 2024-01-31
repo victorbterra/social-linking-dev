@@ -6,11 +6,11 @@ function togglemode() {
   const img = document.querySelector("#profile img")
   // Caso a condicao no html for light //
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "./assets/assets/avatar-light.png")
+    img.setAttribute("src", "./assets/avatar-light.png")
     img.setAttribute("alt", "Foto de Victor Terra em um fundo branco")
     // Caso a condicao nao for light//
   } else {
-    img.setAttribute("src", "./assets/assets/avatar.png")
+    img.setAttribute("src", "./assets/avatar.png")
     img.setAttribute("alt", "Foto de Victor Terra de óculos e camisa azul")
   }
 }

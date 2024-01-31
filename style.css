@@ -11,22 +11,22 @@ body {
 /* Quando o fundo for preto */
 :root {
   --text-color: whitesmoke;
-  --bg-url: url(./assets/assets/bg-mobile.jpg);
+  --bg-url: url(./assets/bg-mobile.jpg);
   --stroke-color: 1px solid rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(255, 255, 255, 0.05);
   --surface-social-links: rgba(255, 255, 255, 0.07);
-  --switch-bg-url: url(./assets/assets/moon-stars.svg);
+  --switch-bg-url: url(./assets/moon-stars.svg);
 }
 /* Quando o fundo for branco */
 .light {
   --text-color: black;
-  --bg-url: url(./assets/assets/bg-mobile-light.jpg);
+  --bg-url: url(./assets/bg-mobile-light.jpg);
   --stroke-color: 1px solid rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.07);
   --surface-social-links: rgba(0, 0, 0, 0.08);
-  --switch-bg-url: url(./assets/assets/sun.svg);
+  --switch-bg-url: url(./assets/sun.svg);
 }
 body * {
   font-family: "Inter", sans-serif;
@@ -35,7 +35,7 @@ body * {
 #container {
   width: 360px;
   border-radius: 10px;
-  margin: 56px auto 0px auto;
+  margin: 24px auto 0px auto;
   padding: 0 24px;
 }
 /* Profile */
@@ -122,7 +122,7 @@ ul li a:hover {
   display: flex;
   justify-content: center;
   gap: 16px;
-  padding: 24px 0px;
+  padding: 8px 0px;
   font-size: 24px;
 }
 #social-links a {
