@@ -18,7 +18,7 @@ Aplicação Web exclusiva, desenvolvido afim de práticas de estudo em tecnologi
 <br>
 
 <p align="center">
-  <img alt="Imagem prévia do projeto" src=".github/preview.jpg" width="100%">
+  <img alt="Imagem prévia do projeto" src=".github/preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
