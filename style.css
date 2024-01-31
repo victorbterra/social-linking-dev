@@ -7,6 +7,7 @@
 body {
   background: var(--bg-url) no-repeat top center/cover;
   transition: all 0.2s;
+  height: 100vh;
 }
 /* Quando o fundo for preto */
 :root {
@@ -61,6 +62,9 @@ body * {
   position: relative;
   margin: 4px auto;
 }
+#switch button:hover{
+  outline: 8px solid var(--surface-color-hover);
+}
 #switch button {
   width: 32px;
   height: 32px;
@@ -72,10 +76,10 @@ body * {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
+  animation: slide-out 0.2s;
 }
 .light #switch button {
-  right: 0;
-  left: initial;
+  animation: slide-in 0.2s forwards;
 }
 #switch span {
   display: block;
@@ -145,4 +149,30 @@ footer {
 }
 footer a {
   text-decoration: none;
+}
+/* Media Queries*/
+@media (min-width: 1024px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+}
+/*animation*/
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+@keyframes slide-out {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0%;
+  }
 }
